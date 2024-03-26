@@ -4,10 +4,8 @@ based on the [one bag "what to pack (on a trip of any length) list"](https://www
 	- [x] smarties / other candies (inspo https://4travel.jp/magazine/shopping/00209)
 	- [x] small 100ml container for sunscreen
 	- [x] lil shaving cream?
-	- [ ] skittles (yuka wanted em)
-	- [ ] a few blank cards, for Ryouma and Ryou
-- Brandon's making a "team koroma shirt" which we're gonna run the race in.
-- Brandon got wine for Sakai's (the one they wanted plus his fav), and then a bottle for Yui and fam and for Ryou 家族, peeps for Yuka, and maple syrup (x4! can give away as we'd like).
+	- [ ] a few blank cards
+- Brandon's making a "team koroma shirt" which we're gonna run the race in
 # On my person
 - [x] apple watch
 - [x] running shoes (ASICS Gel-Kayano 30)
@@ -34,7 +32,6 @@ based on the [one bag "what to pack (on a trip of any length) list"](https://www
 - [x] airtag
 - [x] macbook air
 - [x] lil notebook?
-- [x] ibuprofen for Ian Parsons
 - [x] glasses case & lens cloth
 ### Tech Pouch
 - [x] pen(s)

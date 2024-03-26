@@ -48,4 +48,4 @@ To make sure it's atomic... 3 ways:
 - Ideas
 - Supplementary tools
 
-Main idea, then supplementary 
+Main idea, then supplementary info.

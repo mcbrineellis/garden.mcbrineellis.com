@@ -9,7 +9,6 @@ Component
 - [x] Storage	Western Digital Black SN850X 2 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive
 - [x] Storage	Seagate IronWolf Pro NAS 22 TB 3.5" 7200 RPM Internal Hard Drive
 - [x] Storage	Seagate IronWolf Pro NAS 22 TB 3.5" 7200 RPM Internal Hard Drive
-- [ ] Video Card	Gigabyte OC Low Profile GeForce RTX 4060 8 GB Video Card
 - [x] Case	Jonsbo N3 Mini ITX Desktop Case
 - [x] Power Supply	Corsair SF450 450 W 80+ Gold Certified Fully Modular SFX Power Supply
 - [x] Operating System	Unraid OS ​Plus
@@ -25,3 +24,4 @@ Component
 - [x] Custom	M.2 NVME t​o SATA 3.0​ 6 Port SA​TA Control​ler ASM116​6
 - [x] Custom	9-pin USB ​Motherboar​d Internal​ Header to​ USB2.0 Bu​s Adapter ​Chassis Bu​ilt-in Cab​le for Com​puter Desk​top Cable
 - [x] Custom	USB Type-C​ Dust Plug​ (for unus​ed port)
+- [ ] Video Card	Gigabyte OC Low Profile GeForce RTX 4060 8 GB Video Card

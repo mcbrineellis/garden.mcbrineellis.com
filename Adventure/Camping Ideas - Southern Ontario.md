@@ -17,5 +17,4 @@
 			- Nathan's house
 	- Lakeshore / VIA Corridor East
 		- Smiths Falls
-- Go somewhere with Corey, Emma, Jacob
-	- Owen Sound?  Can take the bus from Guelph: [[Guelph Owen Sound Transportation]]
+- Owen Sound?  Can take the bus from Guelph: [[Guelph Owen Sound Transportation]]
