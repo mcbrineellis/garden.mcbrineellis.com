@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        repo: ["mcbrineellis/garden.mcbrineellis.com"]
+        repo: ["mcbrineellis/quartz"]
     steps:
       - name: Push to repo
         uses: peter-evans/repository-dispatch@v3
