@@ -1,4 +1,6 @@
 Finally, I have decided that enough is enough and I am building an epic storage server to centralize all of my digital artifacts and creative detritus.
+
+I used a case called Jonsbo N3, so I have called this build... the "Consbo N3".  Clever, right?
 # State of the Homelab pre-NAS
 My pre-existing home lab and storage setup looked like this:
 

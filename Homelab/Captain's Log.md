@@ -1,14 +1,12 @@
-#Homelab 
-Check out some [[Homelab Cool Links n Tuts]]
-## Captain's log
-## Mon Mar 25, 2024
+### Fri Mar 29, 2024
+Totally revamped and improved my article on [[Consbo N3 NAS Build]]!  But, I should really go to sleep, it's 2 AM...
+### Mon Mar 25, 2024
 Thinking about how I might set up Unraid backup, now that I've build my Unraid system.
 - Backing up iCloud Photos to Unraid: https://www.youtube.com/watch?v=9UJBkxg9tCo
 - Cloudberry Backup?
 ### Thu Mar 14, 2024
 Back at it with some homelab work.
 - Expanded the disk on my Ubuntu VM on pve2 handling the export and import between esx1 and pve3.
-- 
 ### Wed Feb 28, 2024
 I reinstalled 2 of my 3 nodes to Proxmox.  First impressions are really good!
 https://www.smarthomebeginner.com/proxmox-ssl-certificate-with-letsencrypt/
