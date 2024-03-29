@@ -1,4 +1,4 @@
-https://youtu.be/xc4OtzAnVMI?si=gsY-LGacpJj_1SzE
+Notes from this video: https://youtu.be/xc4OtzAnVMI?si=gsY-LGacpJj_1SzE
 
 Maximalism isn't always the best.  Minimalism is probably better suited for more people even if it doesn't get that much attention.
 
@@ -19,3 +19,6 @@ Get away with very little total lifting - as long as it's very heavy, in the 1-5
 
 30-60 minutes per week is enough to obtain "maximum risk reduction" in terms of all-cause mortality, CVD, and total cancer.
 
+## Kyle’s other recommended videos I gotta check out
+- Meal prep https://youtu.be/226TMdL1sDU?si=DxLFH7kUBllyGs0Y
+- https://youtu.be/Pok0Jg2JAkE?si=RlSoUo_CcdoY1No7
