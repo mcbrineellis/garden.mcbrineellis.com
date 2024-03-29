@@ -1,0 +1,1 @@
+https://kopia.io/docs/features/#verifying-backup-validity-and-consistency
