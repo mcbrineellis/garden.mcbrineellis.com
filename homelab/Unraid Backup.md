@@ -1,6 +1,6 @@
 Now that I've got my [[Consbo N3 NAS Build]] finished, I need to get all my data backed up.
 
-So far I've got a spare 22TB HDD set up as an unassigned device ready to back up to, and I'm comparing different cloud storage providers for offsite backup (I found a [good cloud storage comparison table](https://www.reddit.com/r/DataHoarder/comments/1aketpm/i_made_a_huge_comparison_table_to_help_you_find/) on Reddit).
+So far I've got a spare 22TB HDD set up as an unassigned device ready to back up to, and I'm comparing different cloud storage options for offsite backup.
 ## Cloud Storage
 I want to have an offsite copy of my data, but I don't want to break the bank.  Here is how I have broken down the options for cloud storage.
 
@@ -154,7 +154,6 @@ docker run
   -v '/mnt/user/appdata/Duplicacy/logs':'/logs':'rw'  
   --hostname=consbo 'saspus/duplicacy-web'
 ```
-
 ### Adding Storage
 Then I opened into the Duplicacy web UI, and set my config password (saved it in 1Password).
 
@@ -170,7 +169,6 @@ Storage configuration:
 - Storage Name: `local`
 - Password (saved it in 1Password)
 - Left rest as defaults (LZ4 compression), but I turned on 5:2 erasure coding.
-
 ### Adding Backup Jobs
 Finally we can add our first job!  Open the Backup tab.
 I added my license in already under this page but if you haven't done that yet, you can do it now.
@@ -185,7 +183,6 @@ After adding the job, I clicked run - and it just went ahead and did its thing! 
 A couple helpful Reddit threads with people sharing *what* they are backing up & *how*:
 - https://www.reddit.com/r/unRAID/comments/1ba1yo9/what_folders_do_i_back_up_with_duplicacy/
 - https://www.reddit.com/r/unRAID/comments/16qx7ew/what_do_you_use_to_backup_unraid/
-
 ### Adding Off-Site Copy Jobs
 ## Unraid System Backup
 ### Appdata Backup
