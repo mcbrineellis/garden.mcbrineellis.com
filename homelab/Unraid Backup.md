@@ -180,11 +180,17 @@ After clicking the + sign to add a new backup, we get a simple dialog box.
 
 After adding the job, I clicked run - and it just went ahead and did its thing!  Nice!
 
-A couple helpful Reddit threads with people sharing *what* they are backing up & *how*:
+A couple helpful Reddit threads with people sharing what they are backing up on Unraid:
 - https://www.reddit.com/r/unRAID/comments/1ba1yo9/what_folders_do_i_back_up_with_duplicacy/
 - https://www.reddit.com/r/unRAID/comments/16qx7ew/what_do_you_use_to_backup_unraid/
 ### Adding Off-Site Copy Jobs
+I haven't tested this yet as my first backup is still running.
+
+This should just be a matter of adding a second entry under storage, and adding a copy job to one of your schedules & specifying the source/target storage!
+### Backup Restore
+Restoring data is handled through the GUI.  I did some quick searches and it sounds like it's not possible to mount a backup as if it were a filesystem, which is disappointing.  Hopefully they will add that in the future.
 ## Unraid System Backup
+So, the idea here is to use various plugins to back up the Unraid system itself, and then have Duplicacy pick up those backup files and back them up to your offsite storage etc.
 ### Appdata Backup
 I installed the Appdata Backup plugin from the app store.
 It's terrifically simple.  You just provide it a path to back up to.
