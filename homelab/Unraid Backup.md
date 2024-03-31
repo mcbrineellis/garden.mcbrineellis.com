@@ -196,3 +196,5 @@ I installed the Appdata Backup plugin from the app store.
 It's terrifically simple.  You just provide it a path to back up to.
 
 I created a share specifically for these backups, which I will then in turn back up with Duplicacy.
+
+I realized that Appdata Backup is creating tar files which means perhaps the Duplicacy dedupe might not work properly.  Will have to look into a better solution long term perhaps.

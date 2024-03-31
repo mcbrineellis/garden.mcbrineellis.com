@@ -1,3 +1,13 @@
+### Sun Mar 31, 2024
+- Did a ton of research and finally got my [[Unraid Backup]] set up!
+- Going to shuck an 8TB Seagate Expansion HDD I have lying around and throw that into my array (maybe as a separate pool or unassigned tho, since it's SMR)
+- Reading this Reddit post [How I Left The Cloud](https://www.reddit.com/r/selfhosted/comments/196nke8/how_i_left_the_cloud/) on r/selfhosted
+- Watching the latest LTT video [Paying for Cloud Storage is Stupid](https://www.youtube.com/watch?v=QsM6b5yix0U)
+- Debating buying Neewer wireless mics for filming an upcoming trip...
+	- Which got me looking up the latest Zoom F3 recorder, and then I saw this which looks NEAT AS HECK... https://immersivesoundscapes.com/earsight-thumb-microphones/-p502321903
+		- linked on this thread: https://gearspace.com/board/studio-stage-mobile-amp-location-equipment/1408033-mics-turn-zoom-f3-into-portable-field-recorder.html
+	- still dreaming of the ultimate portable / stealth field recording setup I could take into concert venues and get awesome capture of the show
+- Gmail was launched 20 years ago!  https://lowendtalk.com/discussion/193820/how-time-flies-20-years-since-gmail-launch#latest
 ### Fri Mar 29, 2024
 Totally revamped and improved my article on my [[Consbo N3 NAS Build]]!  But, I should really go to sleep, it's 2 AM...
 ### Mon Mar 25, 2024

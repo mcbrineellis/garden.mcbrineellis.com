@@ -215,7 +215,7 @@ I am using one as a parity disk, another in the array as my first drive which is
 # Avoiding corruption with Unraid
 Absolute power corrupts absolutely?
 
-Okay - so, obviously having a proper backup strategy (think 3-2-1, 3 copies of you data AT LEAST, on 2 different types of media, and copy one offsite) is the most important thing.  However I was worried a bit about something more sinister... What if something "flipped a bit" on one of my HDDs storing my precious memories?  How could I notice this "bit rot" corrupting a file without it affecting my backups and poisoning my parity somehow?
+Okay - so, obviously having a proper backup strategy (think 3-2-1, 3 copies of your data AT LEAST, on 2 different types of media, and copy one offsite) is the most important thing.  However I was worried a bit about something more sinister... What if something "flipped a bit" on one of my HDDs storing my precious memories?  How could I notice this "bit rot" corrupting a file without it affecting my backups and poisoning my parity somehow?
 
 Well... here's the research I did.
 
