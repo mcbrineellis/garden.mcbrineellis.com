@@ -20,13 +20,16 @@ I want to have an offsite copy of my data, but I don't want to break the bank.  
 	- Hetzner Storage Box
 		- Great prices, very attractive option but I expect the transfer speed will be slow
 		- Located in Germany, which is actually a plus for me since I live in Canada and would like my offsite backup to be far away from home
+	- Some other options like these listed on this [comparison table](https://www.reddit.com/r/DataHoarder/comments/1aketpm/i_made_a_huge_comparison_table_to_help_you_find/) I found on Reddit.
 - Storage VPS
 	- Some of them I found seem like they are just resellers of Hetzner services...
 	- Hostbrr
+	- HostHatch
 	- GreenCloud
 	- Crunchbits
 	- Contabo
 	- Alphavps
+	- ...and a billion other similar providers on [LowEndBox](https://lowendbox.com/) / [LowEndTalk](https://lowendtalk.com/)
 - Endpoint Backup Services
 	- These are often "unlimited" but come with hassles.  Some people abuse them and throw up many TBs of data but it might be hard to restore and download it all... you're also probably stuck using the company's official backup client in order to use the service
 	- Crashplan
@@ -71,17 +74,15 @@ File syncing / cloud storage abstraction tools:
 - Syncthing
 	- File syncing tool, could use it to sync data to another Unraid server perhaps.
 # Installing Duplicacy
-So I decided to give Duplicacy a try since I saw so many good things about it reading through the forums and on Reddit.
+So I decided to give Duplicacy a go, since I saw so many people saying good things about it reading through the forums and on Reddit.
 
-I installed Duplicacy from the ["Selfhosters" Unraid Repo](https://github.com/selfhosters/Unraid-CA-templates), which uses the [saspus/duplicacy-web](https://hub.docker.com/r/saspus/duplicacy-web) docker image.  Then I adjusted the config:
+I installed Duplicacy from the ["Selfhosters" Unraid Repo](https://github.com/selfhosters/Unraid-CA-templates), which uses the [saspus/duplicacy-web](https://hub.docker.com/r/saspus/duplicacy-web) docker image.
 
+## Docker Setup
+I adjusted the config:
 - Toggled "advanced view" in the top right corner
 - Updated the hostname under extra parameters
 - Set the value for **User Data** to `/mnt/user` which will map to `/backuproot` in the container.
-- Click **Add another Path, Port, Variable, Label Or Device** at the bottom, and add a variable for set your [time zone](https://data.iana.org/time-zones/tzdb-2021a/zone1970.tab):
-	- Name: `timezone`
-	- Key: `TZ`
-	- Value: `America/Toronto`
 - That's it!  Clicked apply, and it ran:
 ```
 ## Pulling image: saspus/duplicacy-web:latest
@@ -115,13 +116,75 @@ docker run
   -v '/mnt/user/appdata/Duplicacy/cache':'/cache':'rw'  
   -v '/mnt/user/appdata/Duplicacy/logs':'/logs':'rw'  
   --hostname=consbo 'saspus/duplicacy-web'  
-
-970f9ef1f5412f0d1215fe996598ef813538a9925d0bba1c0304847b40837855  
   
 **The command finished successfully!**
 ```
 
-https://www.reddit.com/r/unRAID/comments/1ba1yo9/what_folders_do_i_back_up_with_duplicacy/
-https://www.reddit.com/r/unRAID/comments/16qx7ew/what_do_you_use_to_backup_unraid/
+I noticed that in the above output it used the America/Los_Angeles timezone (I'm in Eastern), so I went into **Settings** > **Date and Time** and fixed my timezone setting, then restarted Duplicacy.
 
-get my stuff off VDC
+I installed **Unassigned Devices** from the app store, and I mounted the external HDD I plan on using for backups.
+
+Then I went back and edited the Docker config, adding a new volume mapping:
+- Config Type: `Path`
+- Name: `Backup HDD`
+- Container Path: `/mnt/disks/backuphdd`
+- Host Path: `/mnt/disks/backuphdd`
+
+Docker did its thang:
+```
+docker run  
+  -d  
+  --name='Duplicacy'  
+  --net='bridge'  
+  -e TZ="America/New_York"  
+  -e HOST_OS="Unraid"  
+  -e HOST_HOSTNAME="consbo"  
+  -e HOST_CONTAINERNAME="Duplicacy"  
+  -e 'USR_ID'='99'  
+  -e 'GRP_ID'='100'  
+  -l net.unraid.docker.managed=dockerman  
+  -l net.unraid.docker.webui='http://[IP]:[PORT:3875]/'  
+  -l net.unraid.docker.icon='https://raw.githubusercontent.com/selfhosters/unRAID-CA-templates/master/templates/img/duplicacy.png'  
+  -p '3875:3875/tcp'  
+  -v '/mnt/user/':'/backuproot':'rw'  
+  -v '/mnt/disks/backuphdd':'/mnt/disks/backuphdd':'rw'  
+  -v '/mnt/user/appdata/Duplicacy':'/config':'rw'  
+  -v '/mnt/user/appdata/Duplicacy/cache':'/cache':'rw'  
+  -v '/mnt/user/appdata/Duplicacy/logs':'/logs':'rw'  
+  --hostname=consbo 'saspus/duplicacy-web'
+```
+
+## Adding Storage
+Then I opened into the Duplicacy web UI, and set my config password (saved it in 1Password).
+
+There are a couple guides I referenced for this part:
+- https://duplicacy.com/guide.html
+- https://forum.duplicacy.com/t/duplicacy-user-guide/1197
+
+I started by configuring the HDD under the storage tab.
+
+Storage configuration:
+- Disk
+	- Directory `/mnt/disks/backuphdd`
+- Storage Name: `local`
+- Password (saved it in 1Password)
+- Left rest as defaults (LZ4 compression), but I turned on 5:2 erasure coding.
+
+## Adding a Backup Job
+Finally we can add our first job!  Open the Backup tab.
+I added my license in already under this page but if you haven't done that yet, you can do it now.
+
+After clicking the + sign to add a new backup, we get a simple dialog box.
+- Directory: `/backuproot/isos`
+- Storage: `local` (this is the storage we just added in)
+- Backup ID: `isos`
+
+After adding the job, I clicked run - and it just went ahead and did its thing!  Nice!
+
+Speaking of adding backup jobs, I found these threads which were informative about what folks are doing for their backup:
+- https://www.reddit.com/r/unRAID/comments/1ba1yo9/what_folders_do_i_back_up_with_duplicacy/
+- https://www.reddit.com/r/unRAID/comments/16qx7ew/what_do_you_use_to_backup_unraid/
+
+It works great!  Then I proceeded to add scheduled jobs following the [Duplicacy User Guide](https://duplicacy.com/guide.html).  If I run into any other challenges I'll post about them here.
+
+I plan on expanding this page with info about how to set up an offsite copy soon.
