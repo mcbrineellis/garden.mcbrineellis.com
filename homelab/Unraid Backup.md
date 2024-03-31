@@ -4,14 +4,14 @@ So far I've got a spare 22TB HDD set up as an unassigned device ready to back up
 ## Cloud Storage
 I want to have an offsite copy of my data, but I don't want to break the bank.  Here is how I have broken down the options for cloud storage.
 
-- S3-compatible object storage providers
+- **S3-compatible object storage providers**
 	- Amazon S3
 		- I have some stuff in a Glacier archive
 	- iDrive e2
 	- Backblaze B2
 		- I was testing out B2 and have a small handful of files stored there
 	- Wasabi
-- Cloud drives / storage boxes
+- **Cloud drives / storage boxes**
 	- Google, Dropbox, iCloud etc
 		- Works fine as hot storage so performance will be good
 	- MEGA
@@ -21,7 +21,7 @@ I want to have an offsite copy of my data, but I don't want to break the bank.  
 		- Great prices, very attractive option but I expect the transfer speed will be slow
 		- Located in Germany, which is actually a plus for me since I live in Canada and would like my offsite backup to be far away from home
 	- Some other options like these listed on this [comparison table](https://www.reddit.com/r/DataHoarder/comments/1aketpm/i_made_a_huge_comparison_table_to_help_you_find/) I found on Reddit.
-- Storage VPS
+- **Storage VPS / Storage Servers**
 	- Some of them I found seem like they are just resellers of Hetzner services...
 	- Hostbrr
 	- HostHatch
@@ -30,55 +30,56 @@ I want to have an offsite copy of my data, but I don't want to break the bank.  
 	- Contabo
 	- Alphavps
 	- ...and a billion other similar providers on [LowEndBox](https://lowendbox.com/) / [LowEndTalk](https://lowendtalk.com/)
-- Endpoint Backup Services
-	- These are often "unlimited" but come with hassles.  Some people abuse them and throw up many TBs of data but it might be hard to restore and download it all... you're also probably stuck using the company's official backup client in order to use the service
+- **Endpoint Backup Services**
+	- These are sometimes marketed as "unlimited" but might come with hassles.  Some people abuse them and throw up many TBs of data but it might be hard to restore and download it all... you're also probably stuck using the company's official backup client in order to use the service or obtain your data.
 	- Crashplan
+		- Saw lots of Unraid users talking about how they use this.
+		- Crashplan is in the Unraid app store.
 	- Backblaze
 		- Some folks used [VirtioFS](https://www.reddit.com/r/unRAID/comments/1b50t9q/virtiofs_is_now_stable_under_windows/) to back up their data using the Backblaze official client presenting the Unraid shares to Windows as a regular disk.
 		- Seems like a bit of a grey area in terms of TOS compliance... but in online forums some of their staff [acknowledged this usage](https://www.reddit.com/r/backblaze/comments/11kuz88/comment/jbaiq07) and seemed to ["bless" it](https://www.reddit.com/r/backblaze/comments/11kuz88/comment/jbd0ufm).  However it is still slightly sketchy in my view.  Maybe I would set this up as a secondary offsite backup "just in case".
 ## Backup Software
-For actually backing up the config, Appdata Backup plugin in Unraid looks promising.
+For actually backing up the config, Appdata Backup plugin in Unraid looks promising.  Can back up VMs and Appdata to a folder, and then have my backup tool of choice back that folder up.
 
-- Duplicacy
+- **Duplicacy**
 	- Paid software but very good reviews, has a nice GUI interface and supports a bunch of different cloud storage as well as local drives.
 	- The CLI part is open source and totally free.
-- Kopia
+- **Kopia**
 	- Newer solution, people seem to like it, but maybe a bit unproven?
 	- https://kopia.io/docs/features/#verifying-backup-validity-and-consistency
 	- Need to do more research on this one.
 	- Has a GUI.
-- Duplicati
+- **Duplicati**
 	- Has a bad rap for being unreliable and the DB getting corrupted.  Sounds pretty featureful though, so could be interesting to try out.
 	- Need to do more research on this one.
 	- Has a GUI
-- Restic
+- **Restic**
 	- This guy uses Restic together with Rclone with some scripts:
 		- https://github.com/DavidKrGH/BackupScripts
 		- https://forums.unraid.net/topic/140004-backup-scripts-combining-restic-and-rclone/
 	- Jim's Garage video on Docker backup with Restic:
 		- https://www.youtube.com/watch?v=WBBTC5WfGis
 	- No GUI
-- Borg / Borgmatic
+- **Borg / Borgmatic**
 	- Borg requires its own server on the remote host (Borgserver?)
 	- So this is a no-go unless I have a VPS or something on the remote end and not just some dumb storage or bucket
 		- Or can use a service like [BorgBase](https://www.borgbase.com/)
 	- Tutorial someone wrote for using Borg with RClone and some shell scripts
 		- https://www.reddit.com/r/unRAID/comments/e6l4x6/tutorial_borg_rclone_v2_the_best_method_to/
-- LuckyBackup
+- **LuckyBackup**
 	- GUI backup container using rsync on the backend
 	- https://unraid.net/blog/unraid-server-backups-with-luckybackup
 
-File syncing / cloud storage abstraction tools:
-- Rclone
+Special mention (cloud storage abstraction and file syncing):
+- **Rclone**
 	- Awesome tool that supports a ton of different cloud storage and abstracts that part away.  Some people even use it alone to run their backups.
-- Syncthing
+- **Syncthing**
 	- File syncing tool, could use it to sync data to another Unraid server perhaps.
-# Installing Duplicacy
+## Duplicacy
 So I decided to give Duplicacy a go, since I saw so many people saying good things about it reading through the forums and on Reddit.
 
 I installed Duplicacy from the ["Selfhosters" Unraid Repo](https://github.com/selfhosters/Unraid-CA-templates), which uses the [saspus/duplicacy-web](https://hub.docker.com/r/saspus/duplicacy-web) docker image.
-
-## Docker Setup
+### Docker Image Config
 I adjusted the config:
 - Toggled "advanced view" in the top right corner
 - Updated the hostname under extra parameters
@@ -154,7 +155,7 @@ docker run
   --hostname=consbo 'saspus/duplicacy-web'
 ```
 
-## Adding Storage
+### Adding Storage
 Then I opened into the Duplicacy web UI, and set my config password (saved it in 1Password).
 
 There are a couple guides I referenced for this part:
@@ -170,7 +171,7 @@ Storage configuration:
 - Password (saved it in 1Password)
 - Left rest as defaults (LZ4 compression), but I turned on 5:2 erasure coding.
 
-## Adding a Backup Job
+### Adding Backup Jobs
 Finally we can add our first job!  Open the Backup tab.
 I added my license in already under this page but if you haven't done that yet, you can do it now.
 
@@ -181,10 +182,14 @@ After clicking the + sign to add a new backup, we get a simple dialog box.
 
 After adding the job, I clicked run - and it just went ahead and did its thing!  Nice!
 
-Speaking of adding backup jobs, I found these threads which were informative about what folks are doing for their backup:
+A couple helpful Reddit threads with people sharing *what* they are backing up & *how*:
 - https://www.reddit.com/r/unRAID/comments/1ba1yo9/what_folders_do_i_back_up_with_duplicacy/
 - https://www.reddit.com/r/unRAID/comments/16qx7ew/what_do_you_use_to_backup_unraid/
 
-It works great!  Then I proceeded to add scheduled jobs following the [Duplicacy User Guide](https://duplicacy.com/guide.html).  If I run into any other challenges I'll post about them here.
+### Adding Off-Site Copy Jobs
+## Unraid System Backup
+### Appdata Backup
+I installed the Appdata Backup plugin from the app store.
+It's terrifically simple.  You just provide it a path to back up to.
 
-I plan on expanding this page with info about how to set up an offsite copy soon.
+I created a share specifically for these backups, which I will then in turn back up with Duplicacy.
