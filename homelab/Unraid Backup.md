@@ -184,9 +184,13 @@ A couple helpful Reddit threads with people sharing what they are backing up on 
 - https://www.reddit.com/r/unRAID/comments/1ba1yo9/what_folders_do_i_back_up_with_duplicacy/
 - https://www.reddit.com/r/unRAID/comments/16qx7ew/what_do_you_use_to_backup_unraid/
 ### Adding Off-Site Copy Jobs
-I haven't tested this yet as my first backup is still running.
+This is just a matter of adding a remote storage target, and adding a copy job from local>remote to your schedules!
 
-This should just be a matter of adding a second entry under storage, and adding a copy job to one of your schedules & specifying the source/target storage!
+I signed up for a Hetzner 10TB storage box, added it as an SFTP target, and configured it as:
+- Copy-compatible with `local` (my local backup repo)
+- Compression set to `zstd (best)`
+
+After setting `-threads 10` copy speeds to Germany are around ~21MB/s (170Mbps), which is totally acceptable performance for an offsite copy!  Copying 10TB offsite at this speed should take around 5.5 days.
 ### Backup Restore
 Restoring data is handled through the GUI.  I did some quick searches and it sounds like it's not possible to mount a backup as if it were a filesystem, which is disappointing.  Hopefully they will add that in the future.
 ## Unraid System Backup
