@@ -1,20 +1,20 @@
 based on the [one bag "what to pack (on a trip of any length) list"](https://www.onebag.com/popups/what2pack.pdf)
 # Not yet got
 - [ ] Dollarama
-	- [x] smarties / other candies (inspo https://4travel.jp/magazine/shopping/00209)
-	- [x] small 100ml container for sunscreen
-	- [x] lil shaving cream?
+	- [ ] smarties / other candies (inspo https://4travel.jp/magazine/shopping/00209)
+	- [ ] small 100ml container for sunscreen
+	- [ ] lil shaving cream?
 	- [ ] a few blank cards
 - Brandon's making a "team koroma shirt" which we're gonna run the race in
 # On my person
-- [x] apple watch
-- [x] running shoes (ASICS Gel-Kayano 30)
-- [x] men I trust hoodie
-- [x] travel pants OR jeans & belt
-- [x] baseball hat
+- [ ] apple watch
+- [ ] running shoes (ASICS Gel-Kayano 30)
+- [ ] men I trust hoodie
+- [ ] travel pants OR jeans & belt
+- [ ] baseball hat
 - [x] wallet
 	- [x] bank card
-- [x] airpods
+- [ ] airpods
 # Peak Design Everyday Sling V2 3L
 - [x] airtag
 - [x] XH2S
@@ -63,16 +63,16 @@ based on the [one bag "what to pack (on a trip of any length) list"](https://www
 	- [x] floss
 	- [x] retainer
 - [x] razor
-	- [x] blades
-	- [x] shaving cream?
-- [x] deodorant
-- [x] running stuff
-	- [x] vaseline
-	- [x] lip balm
-	- [x] sports tape
-	- [x] contact lenses
-- [x] sunscreen
-- [x] travel towel
-- [x] nail clippers
-- [x] ibuprofen / digestive enzymes
-- [x] comb
+	- [ ] blades
+	- [ ] shaving cream?
+- [ ] deodorant
+- [ ] running stuff
+	- [ ] vaseline
+	- [ ] lip balm
+	- [ ] sports tape
+	- [ ] contact lenses
+- [ ] sunscreen
+- [ ] travel towel
+- [ ] nail clippers
+- [ ] ibuprofen / digestive enzymes
+- [ ] comb

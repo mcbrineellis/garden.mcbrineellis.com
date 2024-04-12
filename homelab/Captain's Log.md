@@ -1,3 +1,17 @@
+### Thu Apr 4, 2024
+Have a random giant 
+### Tue Apr 2, 2024
+Finally got the last of my data clear off my OWC dock and the disks installed into Consbo.  It's doing the disk-clear step.
+Left to do:
+- [x] Get my first backup done
+- [x] Get my first offsite copy done
+- [x] Run a parity check
+- [x] Adjust my remote backup so that copy is "airgapped"
+	- [x] separate stuff that changes often from archival / bulk WORMy data like photos & videos
+
+Fixed a networking issue I was having with my Proxmox hosts... I am using USB 2.5GbE NICs and I had them connected and on the same subnet as the 1GbE NICs built into the hosts.  Even with the default gateway on the 2.5GbE bridge interface, traffic seemed to always flow out of the 1G NIC.  To solve this seeming non-deterministic routing problem, I just adjusted the 1GbE NICs to run on a different subnet (which I can change to in case I lose access)
+
+Migrating my pfSense VM from ESXi to PVE.  Did a config export, rebuilding the VM then importing.
 ### Sun Mar 31, 2024
 - Did a ton of research and finally got my [[Unraid Backup]] set up!
 - Going to shuck an 8TB Seagate Expansion HDD I have lying around and throw that into my array (maybe as a separate pool or unassigned tho, since it's SMR)
