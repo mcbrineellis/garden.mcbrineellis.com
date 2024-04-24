@@ -1,4 +1,4 @@
-I love listening to [[ROIOs]].
+ I love listening to [[ROIOs]].
 I want to record some...
 - https://www.reddit.com/r/fieldrecording/search/?q=concert&restrict_sr=1
 - https://www.reddit.com/r/fieldrecording/comments/1bsd1s3/what_should_i_get_as_a_first_mid_side_setup/

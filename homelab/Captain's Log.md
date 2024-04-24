@@ -79,7 +79,7 @@ Hmm... is it okay that my nodes have DHCP addresses?  Gonna say.... no.
 
 Okay, cool.
 
-![[image.jpg]]
+![[2024-01-04 Chinese w Eddie.jpg]]
 
 https://technotim.live/posts/kube-traefik-cert-manager-le/
 https://www.youtube.com/watch?v=G4CmbYL9UPg - traefik
