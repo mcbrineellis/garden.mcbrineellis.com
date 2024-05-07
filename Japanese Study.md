@@ -1,0 +1,4 @@
+- Wanikani
+	- [[How does Wanikani work?]]
+- 日本語の森 N3 Practice 1 Hour https://www.youtube.com/watch?v=yECmEMgKWuM
+- 
