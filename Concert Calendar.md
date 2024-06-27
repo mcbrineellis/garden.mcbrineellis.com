@@ -1,10 +1,13 @@
 ## Upcoming Shows
 
-| Date       | Band                                                                                                                                     | Venue               | Tickets |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------- |
-| 2024-09-11 | [Charly Bliss - Forever and Ever Tour](https://admitone.com/events/charly-bliss-toronto-9554042)                                         | Adelaide Hall       | Waiting |
-| 2024-09-12 | [Lamp - Future Behind Me Tour](https://www.ticketmaster.ca/lamp-future-behind-me-tour-toronto-ontario-09-12-2024/event/10006098D1C328C5) | Danforth Music Hall | Waiting |
-| 2024-10-26 | Polson 10th Anniversary + Timelines                                                                                                      | Garrison            | N/A     |
+| Date       | Band                                                                                                                                     | Venue                   | Tickets    |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | ---------- |
+| 2024-09-11 | [Charly Bliss - Forever and Ever Tour](https://admitone.com/events/charly-bliss-toronto-9554042)                                         | Adelaide Hall           | Waiting    |
+| 2024-09-12 | [Lamp - Future Behind Me Tour](https://www.ticketmaster.ca/lamp-future-behind-me-tour-toronto-ontario-09-12-2024/event/10006098D1C328C5) | Danforth Music Hall     | Waiting    |
+| 2024-09-20 | Keane with Everything Everything                                                                                                         | Queen Elizabeth Theatre | Interested |
+| 2024-10-09 | Chinese Football                                                                                                                         | Horseshoe Tavern        | Purchased  |
+| 2024-10-26 | Polson 10th Anniversary + Timelines                                                                                                      | Garrison                | N/A        |
+| 2024-11-19 | Pond                                                                                                                                     | Danforth Music Hall     | Interested |
 ## Concert History
 
 | Date       | Band                                            | Venue               |

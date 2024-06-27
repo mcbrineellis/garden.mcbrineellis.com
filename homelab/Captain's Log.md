@@ -1,5 +1,34 @@
-### Thu Apr 4, 2024
-Have a random giant 
+### Wed Jun 26, 2024
+Finally reinstalled IDM!
+### Tue June 20, 2024
+https://www.scrypted.app/
+### Tue June 18, 2024
+Discovered cool thing:
+https://docs.paperless-ngx.com/
+
+### Mon Jun 17, 2024
+Time to get working on my homelab again!!!
+
+Gonna decommission the idm server since it was set up with secure boot EFI and the migration from ESXi to Proxmox isn't working, I don't want to bother with spending the time to troubleshoot it.
+
+```
+172.21.12.1   idm.home.mcbrineellis.com
+172.21.12.2   vcsa
+172.21.12.3   adguardhome
+172.21.12.10  rancher
+172.21.12.11  k8s-node1-ctrl
+172.21.12.12  k8s-node2
+172.21.12.13  k8s-node3
+172.21.12.41  veeam
+172.21.12.90  dev
+172.21.12.91  media
+172.21.12.254 pfsense
+192.168.2.63  homeassistant
+192.168.2.201 esx1 / pve1
+192.168.2.202 esx2 / pve2
+192.168.2.203 pve3
+```
+
 ### Tue Apr 2, 2024
 Finally got the last of my data clear off my OWC dock and the disks installed into Consbo.  It's doing the disk-clear step.
 Left to do:
