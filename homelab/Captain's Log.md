@@ -1,3 +1,39 @@
+### Thu July 4, 2024
+A photographer friend had a problem where a single photo on one of their SD cards got corrupted.  I wrote up a how-to on [[Testing SD Card Health and Speed with f3]].
+
+Was curious what folks do to test HDD or other SMART-compatible storage, and found [this comment](https://www.reddit.com/r/DataHoarder/comments/f0goa1/comment/fgubmrn/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button):
+
+> This is something I developed to stress both new and used drives so that if there are any issues they will appear.  Testing can take anywhere from 4-7 days depending on hardware. I have a dedicated testing server setup.
+> 
+> I use a server with ECC RAM installed, but if your RAM has been tested with MemTest86+ then your are probably fine.
+> 
+> **1) SMART Test, check stats**
+>     smartctl -A /dev/sdxx
+>     smartctl -t long /dev/sdxx
+> 
+> **2) BadBlocks -This is a complete write and read test, will destroy all data on the drive**
+>     badblocks -b 4096 -wsv /dev/sdxx > $disk.log
+> 
+> 3) **Format to ZFS** -Yes you want compression on, I have found checksum errors, that having compression off would have missed. (I noticed it completely by accident. I had a drive that would produce checksum errors when it was in a pool. So I pulled and ran my test without compression on. It passed just fine. I would put it back into the pool and errors would appear again. The pool had compression on. So I pulled the drive re ran my test with compression on. And checksum errors. I have asked about. No one knows why this happens but it does. This may have been a bug in early versions of ZOL that is no longer present.)
+> 
+>     zpool create -f -o ashift=12 -O logbias=throughput -O compress=lz4 -O dedup=off -O atime=off -O xattr=sa TESTR001 /dev/sdxx
+>     zpool export TESTR001
+>     sudo zpool import -d /dev/disk/by-id TESTR001
+>     sudo chmod -R ugo+rw /TESTR001
+> 
+> **4) Fill Test using F3**
+>     f3write /TESTR001 && f3read /TESTR001
+> 
+> **5) ZFS Scrub to check any Read, Write, Checksum errors.**
+>     zpool scrub TESTR001
+> 
+> Edit: You can combine steps 4 and 5 by doing this in root
+>     f3write /TESTR001 && f3read /TESTR001 && zpool scrub TESTR001
+> 
+> If everything passes, drive goes into my good pile, if something fails, I contact the seller, to get a partial refund for the drive or a return label to send it back. I record the wwn numbers and serial of each drive, and a copy of any test notes
+> 
+>     8TB wwn-0x5000cca03bac1768 -Failed, 26 -Read errors, non recoverable, drive is unsafe to use.
+>     8TB wwn-0x5000cca03bd38ca8 -Failed, CheckSum Errors, possible recoverable, drive use is not recommend.
 ### Wed Jun 26, 2024
 Finally reinstalled IDM!
 ### Tue June 20, 2024
