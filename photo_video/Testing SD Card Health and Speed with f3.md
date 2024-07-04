@@ -33,7 +33,10 @@ You can read more about how to use f3 on their [usage](https://fight-flash-fraud
 	- In my case it is called Untitled (that is what my Fujifilm camera formats it to)
 	- Volume path will be `/Volumes/SD_Card_Name_Goes_Here`
 
-Run f3write:
+### f3write
+
+Open the terminal and run f3write using the volume path for your SD card.
+
 ```
 connor@con-air ~ % f3write /Volumes/Untitled
 F3 write 8.0
@@ -58,6 +61,8 @@ Creating file 60.h2w ... OK!
 Free space: 1.00 MB
 Average writing speed: 75.05 MB/s
 ```
+
+### f3read
 
 f3read can now test if all of the data can be read back properly (and will report if any data was corrupted, changed or overwritten).
 
