@@ -1,6 +1,6 @@
 ---
 created: 2022-02-10T00:01:00
-updated: 2024-07-05T14:26
+updated: 2024-03-28T00:01:00
 ---
 These are notes I took when working on a project to losslessly capture and restore VHS video.  I first captured a number of tapes in 2016 while borrowing a friend's VHS deck.  I didn't end up finishing the project before I had to return the VHS deck to my friend... so 6 years later I ended up paying a pile of $ to buy a VCR of decent quality with a built in TBC (JVC HR-S9911U) on eBay.
 
