@@ -1,3 +1,7 @@
+---
+created: 2024-03-10T17:25
+updated: 2024-03-31T18:40
+---
 FOSS photo library list: https://github.com/meichthys/foss_photo_libraries
 
 https://piwigo.org/features

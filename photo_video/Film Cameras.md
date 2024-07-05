@@ -1,3 +1,7 @@
+---
+created: 2023-12-05T16:29
+updated: 2024-02-05T16:33
+---
 #Photography 
 See also [[Digital Cameras]]
 

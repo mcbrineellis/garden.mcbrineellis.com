@@ -1,3 +1,7 @@
+---
+created: 2024-04-13T13:46
+updated: 2024-04-16T01:18
+---
 https://www.theverge.com/2023/3/29/23660375/journaling-app-day-one-security-personal-space
 
 > Everything that makes Day One a great record of my life also makes it feel risky. Lots of people trust Day One, and I’ve trusted it every day for 86 days in a row. But should I? How do I know?

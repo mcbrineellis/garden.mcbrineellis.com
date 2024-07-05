@@ -1,3 +1,7 @@
+---
+created: 2023-12-01T15:13
+updated: 2024-03-29T02:00
+---
 Notes from this video: https://youtu.be/xc4OtzAnVMI?si=gsY-LGacpJj_1SzE
 
 Maximalism isn't always the best.  Minimalism is probably better suited for more people even if it doesn't get that much attention.

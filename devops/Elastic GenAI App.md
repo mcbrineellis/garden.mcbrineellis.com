@@ -1,3 +1,7 @@
+---
+created: 2024-03-06T13:31
+updated: 2024-03-06T15:06
+---
 Search, but not just search, analytics.
 Semantic meaning for support.  Labelbox training LLMs. Metoffice searching weather data.
 

@@ -1,3 +1,7 @@
+---
+created: 2024-04-23T19:41
+updated: 2024-04-25T08:12
+---
 ## Packing List
 Based on my previous packing lists [[2024 Newfoundland Eclipse Packing List]] & [[2023 Fukuoka Marathon Packing List]].
 ### Extra

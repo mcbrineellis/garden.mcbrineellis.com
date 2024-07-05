@@ -1,3 +1,7 @@
+---
+created: 2023-10-26T12:45
+updated: 2023-10-26T12:45
+---
 https://www.unfuckyourhabitat.com/about-ufyh/
 
 >If you live somewhere, you deserve for that place to be nice and clean and livable, and you should be the one who makes it that way.

@@ -1,3 +1,7 @@
+---
+created: 2023-10-25T20:52
+updated: 2023-10-25T20:52
+---
 https://www.kyoungtravels.com/2020/09/06/free-camp/
 https://backroadsandotherstories.com/2020/08/24/boondocking-in-ontario-do-your-legwork/
 

@@ -1,3 +1,7 @@
+---
+created: 2024-03-29T02:02
+updated: 2024-03-31T18:48
+---
 Finally, I have decided that enough is enough and I am building an epic storage server to centralize all of my digital artifacts and creative detritus.
 
 I used a case called Jonsbo N3, so I have called this build... the "Consbo N3".  Clever, right?

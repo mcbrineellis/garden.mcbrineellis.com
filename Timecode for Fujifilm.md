@@ -1,3 +1,7 @@
+---
+created: 2024-04-03T18:18
+updated: 2024-04-03T19:55
+---
 Fujifilm recently added an update for the X-H2S camera to allow support for Timecode over Bluetooth using an "UltraSync Blue" device.
 
 Having proper timecode on my video footage would be great, so will be researching this further...

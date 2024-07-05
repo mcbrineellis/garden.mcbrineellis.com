@@ -1,3 +1,7 @@
+---
+created: 2024-04-03T19:30
+updated: 2024-04-21T22:00
+---
  I love listening to [[ROIOs]].
 I want to record some...
 - https://www.reddit.com/r/fieldrecording/search/?q=concert&restrict_sr=1

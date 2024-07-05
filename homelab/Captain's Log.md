@@ -1,3 +1,7 @@
+---
+created: 2023-12-07T17:26
+updated: 2024-07-04T14:03
+---
 ### Thu July 4, 2024
 A photographer friend had a problem where a single photo on one of their SD cards got corrupted.  I wrote up a how-to on [[Testing SD Card Health and Speed with f3]].
 

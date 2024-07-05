@@ -1,3 +1,7 @@
+---
+created: 2024-03-10T11:36
+updated: 2024-03-25T22:09
+---
 Adapted from https://www.instagram.com/p/Ctl4IErA6xt/ (increased portion size, substituted spices) and adjusted with the help of ChatGPT.
 
 ## Ingredients

@@ -1,3 +1,7 @@
+---
+created: 2024-04-12T16:26
+updated: 2024-04-12T17:36
+---
 [Duplicacy quick-start (CLI) - Duplicacy Forum](https://forum.duplicacy.com/t/duplicacy-quick-start-cli/1101)
 
 ```

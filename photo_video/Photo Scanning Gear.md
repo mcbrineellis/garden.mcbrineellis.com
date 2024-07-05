@@ -1,3 +1,7 @@
+---
+created: 2023-12-15T17:16
+updated: 2024-03-10T17:24
+---
 - [x] LÅNGFJÄLL office chair for my room? (Arrives tomorrow, Dec 7)
 - [x] Lightroom subscription
 - [x] Negative Lab Pro

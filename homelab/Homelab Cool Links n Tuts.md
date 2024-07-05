@@ -1,3 +1,7 @@
+---
+created: 2023-12-22T17:47
+updated: 2024-02-05T14:48
+---
 https://breadnet.co.uk/dns-terraform-cloudflare/
 This guy who named his homelab breadNET explains how he hosts his DNS using Terraform and Cloudflare.
 

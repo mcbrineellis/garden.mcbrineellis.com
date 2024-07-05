@@ -1,3 +1,7 @@
+---
+created: 2024-02-04T13:56
+updated: 2024-03-31T18:53
+---
 Throw in OxiClean white revive laundry stain remover powder with each load to keep white shirts looking fresh.
 ## Removing Pit Stains
 Taken from a video Brandon sent me: https://www.youtube.com/watch?v=TqwRByv3Zkw

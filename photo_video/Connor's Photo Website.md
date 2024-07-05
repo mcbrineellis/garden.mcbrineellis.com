@@ -1,3 +1,7 @@
+---
+created: 2024-02-15T18:26
+updated: 2024-03-25T22:11
+---
 ## Blog style photo site
 Cargo (https://u.cargo.site/designlab) is what my friend Emily uses: https://mlybitar.com
 # My current setup

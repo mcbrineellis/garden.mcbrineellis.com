@@ -1,3 +1,7 @@
+---
+created: 2024-06-26T15:14
+updated: 2024-06-26T21:32
+---
 #acme
 
 Install **acme.sh** with the following command or following the instructions on their wiki:

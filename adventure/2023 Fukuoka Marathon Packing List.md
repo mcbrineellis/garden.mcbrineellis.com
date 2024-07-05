@@ -1,3 +1,7 @@
+---
+created: 2023-11-03T16:23
+updated: 2024-04-04T23:17
+---
 based on the [one bag "what to pack (on a trip of any length) list"](https://www.onebag.com/popups/what2pack.pdf)
 # Not yet got
 - [ ] Dollarama

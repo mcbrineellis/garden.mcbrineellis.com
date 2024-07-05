@@ -1,3 +1,7 @@
+---
+created: 2024-03-06T14:23
+updated: 2024-03-06T14:30
+---
 Arm the SOC to "repel" attackers.
 Reduce MTTR to threats, mean time to containment.
 

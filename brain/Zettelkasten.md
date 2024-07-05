@@ -1,3 +1,7 @@
+---
+created: 2023-09-21T19:24
+updated: 2024-03-25T22:33
+---
 What is the goal?
 *Take the input I consume and turn it into output.*
 

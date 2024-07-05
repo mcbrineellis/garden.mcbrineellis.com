@@ -1,3 +1,7 @@
+---
+created: 2024-05-13T22:42
+updated: 2024-05-13T23:02
+---
 Taken from ["Saliva Chicken" by @chill_crisp on Instagram Reels](https://www.instagram.com/p/C6ySKSYMEjL/) and their blog on [Substack](https://chillcrispbyxueci.substack.com/p/sichuan-mouth-watering-chicken).
 #### Ingredients
 to poach the chicken

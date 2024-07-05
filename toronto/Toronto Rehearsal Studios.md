@@ -1,3 +1,7 @@
+---
+created: 2023-10-08T13:16
+updated: 2024-05-08T19:50
+---
 #Music 
 ## Rehearsal Studio List
 - **AMusikZone** (Broadview & Danforth) I emailed this guy today to see about Drum practice, so if it seems good I might be booking Monday evenings here on a regular basis :)

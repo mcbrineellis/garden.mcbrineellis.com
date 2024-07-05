@@ -1,3 +1,7 @@
+---
+created: 2023-10-26T13:33
+updated: 2023-10-26T13:33
+---
 https://www.reddit.com/r/ObsidianMD/comments/1430wxs/with_the_ios17_updates_apple_notes_is_more/
 
 Benefits of Apple Notes over Obsidian?

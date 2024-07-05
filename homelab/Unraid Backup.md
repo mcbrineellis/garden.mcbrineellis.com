@@ -1,3 +1,7 @@
+---
+created: 2024-03-26T13:27
+updated: 2024-04-01T13:07
+---
 Now that I've got my [[Consbo N3 NAS Build]] finished, I need to get all my data backed up.
 
 So far I've got a spare 22TB HDD set up as an unassigned device ready to back up to, and I'm comparing different cloud storage options for offsite backup.

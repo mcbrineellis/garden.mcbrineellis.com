@@ -1,3 +1,7 @@
+---
+created: 2024-01-04T13:24
+updated: 2024-01-04T13:27
+---
 On my Mac I was getting the error `The agent has no identities.` when running `ssh-add -l` even though I had SSH keys in my personal vault.
 
 So I added this to my ~/.zshrc:

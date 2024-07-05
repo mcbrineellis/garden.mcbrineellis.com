@@ -1,3 +1,7 @@
+---
+created: 2024-05-13T22:16
+updated: 2024-05-13T22:16
+---
 Korean "microwave" [hot pot](https://www.instagram.com/p/C5ivXfyLC49/)
 #### Ingredients
 In order of adding to the pot:

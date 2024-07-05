@@ -1,3 +1,7 @@
+---
+created: 2024-02-28T17:57
+updated: 2024-02-28T19:20
+---
 - Certified Kubernetes Administrator: [https://www.cncf.io/certification/cka/](https://www.cncf.io/certification/cka/)
 - Exam Curriculum (Topics): [https://github.com/cncf/curriculum](https://github.com/cncf/curriculum)
 - Candidate Handbook: [https://www.cncf.io/certification/candidate-handbook](https://www.cncf.io/certification/candidate-handbook)

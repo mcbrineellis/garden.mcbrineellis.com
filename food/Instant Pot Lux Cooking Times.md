@@ -1,3 +1,7 @@
+---
+created: 2024-03-10T13:28
+updated: 2024-03-10T14:12
+---
 Info taken from https://www.pressurecookingtoday.com/wp-content/uploads/2018/02/Which-Button-Instant-Pot-Lux-v-1-2.pdf
 
 | Button             | Setting                | Description                                                                                                                                                        |

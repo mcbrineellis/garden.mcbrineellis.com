@@ -1,3 +1,7 @@
+---
+created: 2024-06-26T22:01
+updated: 2024-06-26T22:04
+---
 Based on the instructions on the [Tailscale website](https://tailscale.com/download/linux/debian-bookworm), except without sudo as Proxmox doesn't have sudo installed by default.
 
 ```
