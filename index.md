@@ -1,11 +1,11 @@
 ---
-title: my personal knowledge base
+title: welcome to my digital garden
 created: 2024-03-25T19:42
-updated: 2024-07-05T14:45
+updated: 2024-07-05T15:02
 ---
 ![https://garden.mcbrineellis.com/static/og-image.png](https://garden.mcbrineellis.com/static/og-image.png)
 
-Welcome to my Digital Garden - a place to share my notes on a variety of subjects, in hopes they might be helpful to someone else.
+Welcome to my Digital Garden - this is a place where I shae notes on a variety of subjects in hopes they might be helpful to someone else.
 
 It's kind of like how the internet used to be, before the age of social media.
 
