@@ -1,6 +1,6 @@
 ---
 created: 2024-07-14T18:55
-updated: 2024-07-14T19:01
+updated: 2024-07-14T19:28
 ---
 I like thinking about photography workflows as I've never quite settled on a single approach in my time so far.  I think I'm getting to close to my dream setup though.
 
@@ -57,6 +57,11 @@ Consbo Filesync + Editor / Organizer app.
 - Lightroom
 - Capture One
 - Fujifilm X RAW Studio
+- FastRawViewer
+	- I saw this tool recommended in this thread about [DAM for Fujifilm RAW+JPEG](https://www.dpreview.com/forums/thread/4594548?page=2)
+- Nomacs
+- XnView
+- https://www.reddit.com/r/macapps/comments/mmgltt/mac_equivalent_to_irfanview/
 ### Publishing
 
 Taking photos and easily sharing them to a self hosted photo gallery or a social network.
@@ -81,3 +86,12 @@ I really like this advice.
 > 
 > [Comment on Github Discussion - Immich - [Feature] Folder view #5409](https://github.com/immich-app/immich/discussions/5409#discussioncomment-9764167)
 
+# Escaping the Walled Gardens
+
+## Google Photos
+
+- Google provides a method to download all photos using Google Takeout.
+- [immich-go](https://github.com/simulot/immich-go) takes a Google Takeout export and imports it to Immich.
+## iCloud Photos
+
+https://github.com/boredazfcuk/docker-icloudpd
