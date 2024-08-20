@@ -1,6 +1,6 @@
 ---
 created: 2024-07-14T18:55
-updated: 2024-07-14T19:33
+updated: 2024-08-05T19:30
 ---
 I like thinking about photography workflows as I've never quite settled on a single approach in my time so far.  I think I'm getting to close to my dream setup though.
 
@@ -96,3 +96,4 @@ I really like this advice.
 
 - [iCloud Photos Downloader](https://github.com/icloud-photos-downloader/icloud_photos_downloader) is a command line tool to download your iCloud Photos.
 https://github.com/boredazfcuk/docker-icloudpd
+

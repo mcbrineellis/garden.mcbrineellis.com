@@ -1,6 +1,6 @@
 ---
 created: 2024-04-13T13:46
-updated: 2024-04-16T01:18
+updated: 2024-07-16T12:26
 ---
 https://www.theverge.com/2023/3/29/23660375/journaling-app-day-one-security-personal-space
 
