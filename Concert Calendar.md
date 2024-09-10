@@ -27,7 +27,6 @@ updated: 2024-09-09T20:48
 | 2024-08-30 | [Lavender Town + Dolphin Hyperspace](https://www.showclix.com/event/lavender-town-w-dolphin-hyperspace) | Longboat Hall       |
 | 2024-05-16 | METZ                                                                                                    | Danforth Music Hall |
 | 2024-05-11 | The Jon Cowherd Trio, Larnell Lewis & Joy Lapps                                                         | Koerner Hall        |
+My older concert history on other sites:
 - https://www.songkick.com/users/mcbrineellis
 - https://www.concertarchives.org/con
-
-I'd like to transfer this history to my own list here maybe?
