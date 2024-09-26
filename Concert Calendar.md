@@ -1,9 +1,9 @@
 ---
 modified: 2024-07-05T14:17:37-04:00
 created: 2024-04-24T07:42
-updated: 2024-09-09T20:48
+updated: 2024-09-09T22:27
 ---
-## Upcoming Shows (I'm Interested In)
+## Upcoming Shows
 
 | Date       | Band                                                                                                                                         | Venue               | Tickets  |
 | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | -------- |
@@ -11,7 +11,8 @@ updated: 2024-09-09T20:48
 | 2024-09-12 | [Lamp - Future Behind Me Tour](https://www.ticketmaster.ca/lamp-future-behind-me-tour-toronto-ontario-09-12-2024/event/10006098D1C328C5)     | Danforth Music Hall | ✅ Going  |
 | 2024-09-19 | [KC Roberts & The Live Revolution](https://www.eventbrite.ca/e/etobicoke-jazz-festival-2024-tickets-978427662477)                            | 3030                | ✅ Going  |
 | 2024-09-20 | [The National + The War On Drugs](https://www.ticketmaster.ca/the-national-and-the-war-on-toronto-ontario-09-20-2024/event/10006056B10B139A) | Budweiser Stage     | ✅ Going  |
-| 2024-09-20 | [IDLES: LOVE IS THE FING](https://www.ticketmaster.ca/idles-love-is-the-fing-tour-toronto-ontario-09-20-2024/event/10005F7CDB8C4BA4)         | Coca-Cola Coliseum  | ❌        |
+| 2024-09-28 | [Homeshake](https://www.ticketweb.ca/event/homeshake-lees-palace-tickets/13565483)                                                           | Lee's Palace        | 🤔       |
+| 2024-09-29 | [Homeshake](https://www.ticketweb.ca/event/homeshake-lees-palace-tickets/13565483)                                                           | Lee's Palace        | 🤔       |
 | 2024-10-01 | [Mk.gee](https://www.ticketmaster.ca/mkgee-toronto-ontario-10-01-2024/event/100060C6C2C2588C)                                                | History             | 🤔       |
 | 2024-10-04 | [Next Music from Tokyo vol 16](https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-horseshoe-tavern-tickets/13692883)               | Horseshoe Tavern    | ✅ Going  |
 | 2024-10-05 | [Next Music from Tokyo vol 16](https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-horseshoe-tavern-tickets/13692883)               | The Hard Luck       | 🤔       |
@@ -27,6 +28,6 @@ updated: 2024-09-09T20:48
 | 2024-08-30 | [Lavender Town + Dolphin Hyperspace](https://www.showclix.com/event/lavender-town-w-dolphin-hyperspace) | Longboat Hall       |
 | 2024-05-16 | METZ                                                                                                    | Danforth Music Hall |
 | 2024-05-11 | The Jon Cowherd Trio, Larnell Lewis & Joy Lapps                                                         | Koerner Hall        |
-My older concert history on other sites:
+Older concert history on other sites:
 - https://www.songkick.com/users/mcbrineellis
 - https://www.concertarchives.org/con

@@ -1,6 +1,6 @@
 ---
 created: 2024-06-26T19:09
-updated: 2024-06-26T21:32
+updated: 2024-09-26T00:17
 ---
 #acme 
 
@@ -25,3 +25,7 @@ acme.sh --issue --server letsencrypt --dns dns_cf --fullchain-file /boot/config/
 ```
 
 After this, set **Use SSL/TLS** to _Yes_ under the **Settings > Management Access** page and everything should work!
+
+## Renewing Certificates
+
+To renew the certificate, run the same commands and toggle **Use SSL/TLS** under **Settings > Management Access** to use the updated cert.
