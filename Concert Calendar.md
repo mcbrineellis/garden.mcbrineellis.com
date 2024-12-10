@@ -1,7 +1,7 @@
 ---
 modified: 2024-07-05T14:17:37-04:00
 created: 2024-04-24T07:42
-updated: 2024-09-27T19:36
+updated: 2024-09-30T14:07
 ---
 ## Upcoming Shows
 
@@ -11,10 +11,11 @@ updated: 2024-09-27T19:36
 | 2024-10-03 | [Mass of the Fermenting Dregs](https://www.ticketweb.ca/event/mass-of-the-fermenting-dregs-the-phoenix-concert-theatre-tickets/13472714) | Phoenix             | ✅ Going  |
 | 2024-10-04 | [Next Music from Tokyo vol 16](https://www.ticketweb.ca/event/next-music-from-tokyo-vol-the-horseshoe-tavern-tickets/13692883)           | Horseshoe Tavern    | ✅ Going  |
 | 2024-10-09 | [Chinese Football](https://www.ticketweb.ca/event/chinese-football-presented-the-horseshoe-tavern-tickets/13551584)                      | Horseshoe Tavern    | ✅ Going  |
-| 2024-10-25 | [Delta Sleep](https://www.ticketmaster.ca/event/100060FA0B545E08)                                                                        | Velvet Underground  | 😔 Can't |
+| 2024-10-25 | [Delta Sleep](https://www.ticketmaster.ca/event/100060FA0B545E08)                                                                        | Velvet Underground  | ✅ Going  |
 | 2024-10-26 | [Polson 10th Anniversary + Timelines](https://dice.fm/partner/dice/event/q22nrp-polson-26th-oct-the-garrison-toronto-tickets)            | Garrison            | ✅ Going  |
 | 2024-11-15 | [Cory Wong](https://link.seated.com/a2e48d6e-1559-4f96-9fef-0314e6b40fd4)                                                                | History             | 😔 Can't |
-| 2024-11-19 | [Pond](https://www.ticketmaster.ca/event/100060B7D758376E)                                                                               | Danforth Music Hall | 🤔       |
+| 2024-11-19 | [Pond](https://www.ticketmaster.ca/event/100060B7D758376E)                                                                               | Danforth Music Hall | 🤔 Hmm   |
+| 2025-02-04 | [Soccer Mommy](https://dice.fm/event/ry3k5y-soccer-mommy-4th-feb-the-concert-hall-toronto-tickets)                                       | The Concert Hall    | ✅ Going  |
 ## Concert History
 
 | Date       | Band                                                                                                                                         | Venue               |
